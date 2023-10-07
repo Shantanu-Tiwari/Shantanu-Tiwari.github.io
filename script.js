@@ -85,3 +85,13 @@ for (i = 0; i < coll.length; i++) {
         }
     });
 }
+const button = document.querySelector('.collapsible');
+const content = document.querySelector('.content');
+
+button.addEventListener('click', () => {
+    if (content.style.display === 'none' || content.style.display === '') {
+        content.style.display = 'block';
+    } else {
+        content.style.display = 'none';
+    }
+});
