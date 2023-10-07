@@ -1,0 +1,15 @@
+.fullscreen{
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    color: white;
+    font-size: 5rem;
+    font-family: "Space Mono", monospace;
+    display: grid;
+    place-content: center;
+
+}
+body{
+    background-color: black;
+}
